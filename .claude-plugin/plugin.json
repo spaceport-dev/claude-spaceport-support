@@ -1,0 +1,8 @@
+{
+  "name": "spaceport",
+  "description": "Spaceport framework development tools — six specialized agents and full documentation reference for building Spaceport applications.",
+  "version": "1.0.0",
+  "author": {
+    "name": "spaceport-dev"
+  }
+}
