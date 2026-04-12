@@ -27,12 +27,12 @@ From your Spaceport project directory:
 claude --plugin-dir /path/to/plugins/spaceport
 ```
 
-## When to Use This vs. Agentic
+## When to Use This vs. create-spaceport-app
 
-- **This plugin** — for existing Spaceport projects that weren't started from the agentic starter kit. Agents discover project context by reading `config.spaceport` at runtime.
-- **Agentic** — for new projects. Clone `spaceport-dev/agentic`, run the bootstrap, and get project-specific agents with your config baked in.
+- **This plugin** — for existing Spaceport projects. Agents discover project context by reading `config.spaceport` at runtime.
+- **[create-spaceport-app](https://github.com/spaceport-dev/create-spaceport-app)** — for new projects. Clone it, run the bootstrap, and get project-specific agents with your config baked in.
 
-If your project was bootstrapped from agentic, you already have project-specific agents in `.claude/agents/` — this plugin is redundant. The agents will detect this and warn you.
+If your project was bootstrapped from create-spaceport-app, you already have project-specific agents in `.claude/agents/` — this plugin is redundant. The agents will detect this and warn you.
 
 ## Requirements
 
