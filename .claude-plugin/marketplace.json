@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "spaceport",
-      "source": ".",
+      "source": "./plugins/spaceport",
       "description": "Spaceport framework development tools — six specialized agents and full documentation reference for building Spaceport applications."
     }
   ]
