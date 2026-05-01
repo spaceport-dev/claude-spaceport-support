@@ -13,12 +13,7 @@
         "name": "spaceport-dev"
       },
       "category": "development",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/spaceport-dev/claude-spaceport-support.git",
-        "path": "plugins/spaceport",
-        "ref": "main"
-      },
+      "source": "./plugins/spaceport",
       "homepage": "https://github.com/spaceport-dev/claude-spaceport-support/tree/main/plugins/spaceport"
     }
   ]
