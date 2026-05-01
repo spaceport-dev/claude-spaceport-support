@@ -1,7 +1,5 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "spaceport-support",
-  "version": "1.0.0",
   "description": "Claude Code plugin marketplace for the Spaceport framework",
   "owner": {
     "name": "spaceport-dev",
@@ -11,12 +9,17 @@
     {
       "name": "spaceport",
       "description": "Spaceport framework development tools — six specialized agents and full documentation reference for building Spaceport applications.",
-      "version": "1.0.0",
       "author": {
         "name": "spaceport-dev"
       },
-      "source": "./plugins/spaceport",
-      "category": "development"
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/spaceport-dev/claude-spaceport-support.git",
+        "path": "plugins/spaceport",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/spaceport-dev/claude-spaceport-support/tree/main/plugins/spaceport"
     }
   ]
 }
