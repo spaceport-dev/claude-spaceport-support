@@ -21,10 +21,19 @@ Add Spaceport framework expertise to any existing Spaceport project. Provides si
 
 ## Installation
 
-From your Spaceport project directory:
+From your Spaceport project directory, in Claude Code:
 
-```bash
-claude --plugin-dir /path/to/plugins/spaceport
+```
+/plugin marketplace add spaceport-dev/claude-spaceport-support
+/plugin install spaceport@spaceport-support
+```
+
+The first command registers this repo as a plugin marketplace. The second installs the `spaceport` plugin from it. After install, restart Claude Code to load the agents.
+
+To update later:
+
+```
+/plugin marketplace update spaceport-support
 ```
 
 ## When to Use This vs. create-spaceport-app

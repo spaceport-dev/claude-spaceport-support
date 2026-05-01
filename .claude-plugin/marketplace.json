@@ -1,0 +1,14 @@
+{
+  "name": "spaceport-support",
+  "owner": {
+    "name": "spaceport-dev",
+    "url": "https://github.com/spaceport-dev"
+  },
+  "plugins": [
+    {
+      "name": "spaceport",
+      "source": ".",
+      "description": "Spaceport framework development tools — six specialized agents and full documentation reference for building Spaceport applications."
+    }
+  ]
+}
