@@ -23,6 +23,6 @@ To update later:
 
 | Plugin | Description |
 |---|---|
-| [`spaceport`](plugins/spaceport/) | Six specialized agents and full framework documentation reference for building Spaceport applications. |
+| [`spaceport`](plugins/spaceport/) | Six specialized agents and shared framework documentation fetched on demand for building Spaceport applications. |
 
 See the individual plugin READMEs for details on what each one provides.

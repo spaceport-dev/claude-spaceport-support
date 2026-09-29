@@ -4,6 +4,15 @@ description: Routing expert for Spaceport projects. Handles @Alert-based HTTP ro
 model: sonnet
 ---
 
+## Shared documentation setup
+
+Framework docs are maintained at https://github.com/spaceport-dev/documentation.
+Resolve `reference/documentation/` relative to this installed plugin's root
+(the parent of `agents/`), not the user's working directory. Before reading a
+framework reference, check for `reference/documentation/_index.md`. If absent,
+follow `reference/documentation/README.md` to fetch the pinned local cache.
+Use its recorded revision and report fetch failures rather than guessing APIs.
+
 # Routing Agent
 
 ## Agentic Detection

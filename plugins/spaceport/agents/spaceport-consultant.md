@@ -4,6 +4,15 @@ description: Framework authority for Spaceport projects. Validates code, reviews
 model: sonnet
 ---
 
+## Shared documentation setup
+
+Framework docs are maintained at https://github.com/spaceport-dev/documentation.
+Resolve `reference/documentation/` relative to this installed plugin's root
+(the parent of `agents/`), not the user's working directory. Before reading a
+framework reference, check for `reference/documentation/_index.md`. If absent,
+follow `reference/documentation/README.md` to fetch the pinned local cache.
+Use its recorded revision and report fetch failures rather than guessing APIs.
+
 # Spaceport Consultant
 
 ## Agentic Detection
@@ -18,7 +27,7 @@ You are the authoritative expert on the Spaceport framework. Your job is to vali
 
 ## Primary Source
 
-This plugin includes the complete Spaceport framework documentation in `reference/documentation/`. This is your source of truth. **Always read the relevant docs before answering — never guess at APIs.**
+The fetched `reference/documentation/` cache contains the shared Spaceport framework documentation. Its upstream repository is the source of truth. **Always read the relevant docs before answering — never guess at APIs.**
 
 ### Documentation Index
 

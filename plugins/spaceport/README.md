@@ -1,12 +1,16 @@
 # Spaceport Plugin for Claude Code
 
-Add Spaceport framework expertise to any existing Spaceport project. Provides six specialized agents and full framework documentation as reference.
+Add Spaceport framework expertise to any existing Spaceport project. Provides six specialized agents and access to shared framework documentation.
 
 ## What You Get
 
 - **Six agents** that understand Spaceport's APIs, conventions, and best practices
-- **Complete framework documentation** bundled as agent reference material
+- **Shared framework documentation** fetched on demand as local agent reference material
 - **Zero project modification** — attaches externally, doesn't change your files
+
+## Framework documentation
+
+After installation, follow [the documentation fetch instructions](reference/documentation/README.md) from the plugin root. Agents check for the cache before consulting framework APIs. Python 3.9+ and curl are required for fetching; subsequent reads work offline.
 
 ## Agents
 
